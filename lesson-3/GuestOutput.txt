@@ -1,0 +1,5 @@
+client	cost	discount	transport_is_free
+guest	50	1%	n
+guest	300	5%	y
+guest	40	0%	n
+guest	150	5%	n

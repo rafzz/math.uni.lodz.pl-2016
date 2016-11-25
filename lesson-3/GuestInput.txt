@@ -1,0 +1,11 @@
+client: guest
+cost: 40,50,150,300
+discount: 0%, 1%, 5%
+transport_is_free: n,y
+
+
+IF [cost] <50 THEN [discount] = "0%"; 
+IF [cost] >=50 AND [cost]<150 THEN [discount] = "1%"; 
+IF [cost] >=150 THEN [discount] = "5%"; 
+IF [cost] <300 THEN [transport_is_free] = "n"; 
+IF [cost] =300 THEN [transport_is_free] = "y";

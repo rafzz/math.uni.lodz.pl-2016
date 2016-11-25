@@ -1,0 +1,9 @@
+client: super
+cost: 40,50,150,300
+discount: 10%, 15%, 20%
+transport_is_free: y
+
+
+IF [cost] <150 THEN [discount] = "10%"; 
+IF [cost] >=150 AND [cost]<300 THEN [discount] = "15%"; 
+IF [cost] >=300 THEN [discount] = "20%"; 

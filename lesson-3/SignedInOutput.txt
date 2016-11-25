@@ -1,0 +1,5 @@
+client	cost	discount	transport_is_free
+signed_in	150	7%	y
+signed_in	50	5%	n
+signed_in	40	5%	n
+signed_in	300	13%	y

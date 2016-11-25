@@ -1,0 +1,5 @@
+client	cost	discount	transport_is_free
+super	150	15%	y
+super	50	10%	y
+super	40	10%	y
+super	300	20%	y
